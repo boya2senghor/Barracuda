@@ -1,8 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package ParallelBarracudaFramework1;
 import static java.lang.Math.log;
 import static java.lang.Math.pow;
@@ -12,7 +7,7 @@ import java.util.concurrent.atomic.AtomicInteger;
 
 /**
  *
- * @author boya
+ * @author Abdourahmane Senghor
  */
 public class DivideAndConquer_BRCD {     
     static class Range_brcd {
@@ -31,8 +26,8 @@ public class DivideAndConquer_BRCD {
             try {
                 while (true) {
                     int i = cursor_brcd.getAndIncrement();
-                    //call recursive method with actual parameters pre-contacted with "rangeArray_brcd.get(i)."                    
-                    //sequentialQuicksort(rangeArray.get(i).a, rangeArray.get(i).left, rangeArray.get(i).right);
+                    //call recursive method with actual parameters pre-contacted with "rangeArray_brcd[i]."                    
+                    
                 }
             } catch (Exception e) {
             }
